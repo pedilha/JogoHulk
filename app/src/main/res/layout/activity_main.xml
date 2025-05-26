@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/preview2"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/hulk_01"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hulk_01" />
+
+        <ImageView
+            android:id="@+id/hulk_02"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hulk_01" />
+
+        <ImageView
+            android:id="@+id/hulk_03"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hulk_01" />
+
+        <ImageView
+            android:id="@+id/hulk_04"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hulk_01" />
+
+        <ImageView
+            android:id="@+id/hulk_05"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hulk_01" />
+
+        <ImageView
+            android:id="@+id/hulk_06"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hulk_01" />
+
+        <ImageView
+            android:id="@+id/hulk_07"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hulk_01" />
+
+        <ImageView
+            android:id="@+id/hulk_08"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/hulk_01" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:text="Iniciar"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/pts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Pontos: 0"
+        android:textColor="#b60000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/recorde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Recorde: 0"
+        android:textColor="#b60000"
+        android:textSize="25dp" />
+</RelativeLayout>
